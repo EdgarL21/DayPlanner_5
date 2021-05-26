@@ -72,6 +72,53 @@ if(current == 17) {
 
 
 
+$(".save9").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('9:00 AM', $('#9').val())
+})
+
+$(".save10").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('10:00 AM', $('#10').val())
+})
+
+$(".save11").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('11:00 AM', $('#11').val())
+})
+
+$(".save12").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('12:00 PM', $('#12').val())
+})
+
+$(".save13").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('1:00 PM', $('#13').val())
+})
+
+$(".save14").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('2:00 PM', $('#14').val())
+})
+
+$(".save15").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('3:00 PM', $('#15').val())
+})
+
+$(".save16").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('4:00 PM', $('#16').val())
+})
+
+$(".save17").on('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('5:00 PM', $('#17').val())
+})
+
+
+
 // // var current = moment().hours(); // gets only the hour from the moment
 // // console.log(current); // logs only the hour
 
